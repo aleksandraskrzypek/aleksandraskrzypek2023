@@ -1,0 +1,120 @@
+.bg-page-home{
+    //background-color: #110d25;
+
+    background-image: url("../image/00Back.jpg");
+    background-size: cover;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    text-shadow: 0 10px 30px rgba(2, 11, 22, 0.5);
+}
+
+.homePageContainer{
+    width: 1200px;
+    color: white;
+}
+
+.homePageHead{
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+    align-items: center;
+}
+
+.homePageBody{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+    align-items: center;
+    //border: 1px solid white;
+    //padding: 25px;
+    //border-radius: 20px;
+}
+
+.homeContent{
+   width: 55%;
+}
+
+.homeAvatar{
+    width: 30%;
+}
+
+.diffLinks{
+    //width: 3%;
+    height: 250px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.diffLinks a{
+    text-decoration: none;
+}
+
+.homeContent h2, p{
+    padding: 25px 0px;
+}
+
+.buttonHireMe{
+    border: none;
+    border-radius: 25px;
+    height: 55px;
+    width: 155px;
+
+    font-family: 'Poppins', sans-serif;
+    font-size: 22px;
+
+    background-color:  #964a55;
+    border-style: none;
+    color: white;
+    cursor: pointer;
+    transition: 2s;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    text-shadow: 0 10px 30px rgba(2, 11, 22, 0.5);
+}
+
+.buttonHireMe:hover{
+    transform: scale(1.1);
+}
+
+.iconBrands{
+    font-size: 35px;
+    padding: 10px;
+    cursor: pointer;
+    color: white;
+
+    border: 1px solid white;
+    border-radius: 100px;
+}
+
+.iconBrands:hover{
+    border: 1px solid #964a55;
+    color: #964a55;
+    transition: 0.5s;
+}
+
+.avatarImage{
+    height: 360px;
+    width: auto;
+}
+
+.title{
+    position: absolute;
+    top: 50px;
+    transform: rotate(-5deg);
+}
+
+.title h1{
+    font-family: 'Bruno Ace', cursive;
+    //font-family: 'Darumadrop One', cursive;
+    //font-family: 'Shadows Into Light', cursive;
+    font-size: 50px;
+    text-shadow: 0 10px 30px rgba(2, 11, 22, 0.5);
+
+    //background-color: #964a55;
+    //background-color: #5d4256;
+}

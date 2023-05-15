@@ -1,0 +1,46 @@
+.navBar{
+    position: fixed;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 22px;
+    padding: 8px 0px;
+    background-color: #03010e;
+    z-index: 1000000 !important;
+}
+
+.navBar ul{
+    width: 1200px;
+    text-decoration: none;
+    list-style-type: none;
+    text-align:right;
+    padding-inline-start: 0px
+}
+
+.navBar li{
+    margin: 0px 0px 0px 40px;
+    text-decoration: none;
+    display:inline-block;
+}
+
+.navBar li:first-child{
+    float:left;
+    margin: 0px;
+}
+
+.navBar a{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
+
+
+.active a{
+    color: rgba(255, 255, 255, 0.13);
+}
+
+.hoverNav:hover{
+    color: rgba(255, 255, 255, 0.13);
+    transition: 0.3s;
+}
+

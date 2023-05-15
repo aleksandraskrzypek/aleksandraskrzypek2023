@@ -1,0 +1,101 @@
+.bg-page-about{
+    background-image: url("../image/01Back.jpg");
+    background-size: cover;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    text-shadow: 0 10px 30px rgba(2, 11, 22, 0.5);
+}
+
+.aboutPageContainer{
+    width: 1200px;
+    color: white;
+}
+
+.aboutPageHead{
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+    align-items: center;
+}
+
+.aboutMeText{
+    width: 45%;
+}
+
+.aboutMeText p{
+    text-shadow: 0 10px 30px rgba(2, 11, 22, 0.5);
+}
+
+.aboutMeSkills{
+    width: 45%;
+}
+
+.emptyBar{
+    background-color: rgba(255, 255, 255, 0.301);
+    width: 100%;
+    height: 3px;
+}
+
+.spaceBar{
+    margin: 10px 0px;
+}
+
+.barHtml{
+    background-color: #964a55;
+    width: 90%;
+    height: 3px;
+}
+
+.barCss{
+    background-color: #964a55;
+    width: 90%;
+    height: 3px;
+}
+
+.barReact{
+    background-color: #964a55;
+    width: 70%;
+    height: 3px;
+}
+
+.barJavaScript{
+    background-color: #964a55;
+    width: 50%;
+    height: 3px;
+}
+
+.skills{
+    margin: 15px 0px;
+}
+
+.listSkills ul{
+    text-decoration: none;
+    list-style-type: none;
+
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+.listSkills li{
+    text-decoration: none;
+    margin: 5px;
+    padding: 5px 10px;
+    border-radius: 50px;
+    background-color: #964a55;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    font-weight: 500;
+    transition: 1s;
+    cursor: pointer;
+    border-style: none;
+}
+
+.listSkills li:hover{
+    transform: scale(1.1);
+}
+
+
