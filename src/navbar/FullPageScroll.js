@@ -3,6 +3,7 @@ import fullpage from "fullpage.js";
 import "fullpage.js/dist/fullpage.css";
 import AOS from "aos";
 import "aos/dist/aos.css";
+import '../style/stars.sass'
 
 import './fullpage.scss'
 
@@ -28,14 +29,22 @@ const FullPageScroll = () => {
         });
       }, []);
 
+      
+
     
     return(
 
         <div id="fullpage" className="fullpagecSroll">
             <div className="section active"><Home /></div>
+
             <div className="section"><About /></div>
+
             <div className="section"><Portfolio /></div>
+
             <div className="section"><Contact /></div>
+            {/* <div id="stars"></div>
+            <div id="stars2"></div>
+            <div id="stars3"></div> */}
         </div>
     )
 };

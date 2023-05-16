@@ -1,7 +1,7 @@
 import React from 'react'
 import '../style/contact.scss'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faGithub, faFacebook } from '@fortawesome/free-brands-svg-icons'
+import { faGithub, faFacebook, faLinkedin } from '@fortawesome/free-brands-svg-icons'
 import { faEnvelope, faLocationPin } from '@fortawesome/free-solid-svg-icons'
 
 function Contact() {
@@ -25,9 +25,13 @@ function Contact() {
               <p>aleksandraskrzypek97@gmail.com</p>
             </div>
 
+            <h1>Also you can find me here!</h1>
+            <FontAwesomeIcon icon={faGithub} className='iconContact findmeIcon'/>
+            <FontAwesomeIcon icon={faFacebook} className='iconContact findmeIcon'/>
+            <FontAwesomeIcon icon={faLinkedin} className='iconContact findmeIcon'/>
 
           </div>
-          <div className='formContainer' data-aos="fade-left" data-aos-duration="2000">
+          {/* <div className='formContainer' data-aos="fade-left" data-aos-duration="2000">
             <form action="sendMail.php" method="post">
               <input placeholder='First Name*' type='text' className='contactInput' required/>
               <input placeholder='Last Name' type='text' className='contactInput'/>
@@ -35,9 +39,10 @@ function Contact() {
               <input placeholder='Email' type='email' className='contactInput'/>
               <textarea placeholder='Message*' rows="8" cols="35" className='contactInput' required/>
               <button className='buttonForm' type="submit">SEND MESSAGE</button>
-              {/* <input type="submit" value="Wyślij" /> */}
+              <input type="submit" value="Wyślij" /> 
             </form>
-          </div>
+          </div> */}
+
         </div>
       </div>
     </div>

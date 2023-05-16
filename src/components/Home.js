@@ -10,6 +10,7 @@ import AOS from 'aos';
 import 'aos/dist/aos.css';
 
 
+
 function Home() {
 
   useEffect(() => {
@@ -21,6 +22,7 @@ function Home() {
 
   return (
     <div id='home' className='bg-page bg-page-home'>
+
       <div className='homePageContainer'>
         <div className='title'>
           <h1 data-aos="flip-left" data-aos-duration="2000">{'{'} HOME {'}'}</h1>
