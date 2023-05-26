@@ -1,43 +1,23 @@
 [
     {
-        "title": "jeden",
+        "title": "English ",
         "image": "../images/englishApp.png",
         "description": "lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem psum lorem ipsum lorem ipsum lorem ipsum psum lorem ipsum lorem ipsum lorem ipsum psum lorem ipsum lorem ipsum lorem ipsum psum lorem ipsum lorem ipsum lorem ipsumpsum lorem ipsum lorem ipsum lorem ipsum psum lorem ipsum lorem ipsum lorem ipsum psum lorem ipsum lorem ipsum lorem ipsum psum lorem ipsum lorem ipsum lorem ipsum psum lorem ipsum lorem ipsum lorem ipsum psum lorem ipsum lorem ipsum lorem ipsum  psum lorem ipsum lorem ipsum lorem ipsum psum lorem ipsum lorem ipsum lorem ipsum ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum "
     },
     {
-        "title": "jeden",
+        "title": "Wordle Game",
         "image": "../image/englishApp.png"
     },
     {
-        "title": "jeden",
+        "title": "Productivity App",
         "image": "../image/englishApp.png"
     },
     {
-        "title": "jeden",
+        "title": "Weather App",
         "image": "../image/englishApp.png"
     },
     {
-        "title": "jeden",
-        "image": "../image/englishApp.png"
-    },
-    {
-        "title": "jeden",
-        "image": "../image/englishApp.png"
-    },
-    {
-        "title": "jeden",
-        "image": "../image/englishApp.png"
-    },
-    {
-        "title": "jeden",
-        "image": "../image/englishApp.png"
-    },
-    {
-        "title": "jeden",
-        "image": "../image/englishApp.png"
-    },
-    {
-        "title": "jeden",
+        "title": "See More",
         "image": "../image/englishApp.png"
     }
 ]
