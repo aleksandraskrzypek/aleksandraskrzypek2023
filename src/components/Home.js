@@ -42,7 +42,7 @@ function Home() {
             <h2>Frontend Developer || UI Designer</h2>
             <p>I'm frontend developer with UI Designer experience, trying to improve my skills every day. I would like to work with react. Scroll down and look at my works! <FontAwesomeIcon icon={faFaceSmile} className='iconSmile'/> <br /> Nice to have you here </p>
 
-            <button className='buttonHireMe'>Hire me</button>
+            {/* <button className='buttonHireMe'>Hire me</button> */}
           </div>
           <MouseParallaxContainer globalFactorX={0.1} globalFactorY={0.1}>
             <div className='homeAvatar' data-aos="fade-left"  data-aos-duration="2000">
