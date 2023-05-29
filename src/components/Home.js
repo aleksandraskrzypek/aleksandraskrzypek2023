@@ -29,6 +29,9 @@ function Home() {
         </div>
         <div className='homePageHead'>
           <div className='homePageBody'>
+          <div className='avatarOnlyMobile' data-aos="fade-left"  data-aos-duration="2000">
+                <img alt="" src={avatar} className='avatarImageOnlyMobile'/>
+          </div>
           <div className='diffLinks' data-aos="fade-right"  data-aos-duration="2000">
             <a href='https://github.com/aleksandraskrzypek'><FontAwesomeIcon icon={faGithub} className='iconBrands'/></a>
             <FontAwesomeIcon icon={faFacebook} className='iconBrands'/>
@@ -48,6 +51,12 @@ function Home() {
               </MouseParallaxChild>
             </div>
           </MouseParallaxContainer>
+
+          <div className='diffLinksMobile'>
+            <a href='https://github.com/aleksandraskrzypek'><FontAwesomeIcon icon={faGithub} className='iconBrandsMobile'/></a>
+            <FontAwesomeIcon icon={faFacebook} className='iconBrandsMobile'/>
+            <FontAwesomeIcon icon={faEnvelope} className='iconBrandsMobile'/>
+          </div>
         </div>
       </div>
       </div>

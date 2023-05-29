@@ -9,8 +9,14 @@
     text-shadow: 0 10px 30px rgba(2, 11, 22, 0.5);
 }
 
+@media screen and (min-width: 1270px){
+    .homePageContainer{
+        width: 1200px !important;
+    }
+}
+
 .homePageContainer{
-    width: 1200px;
+    width: 100%;
     color: white;
 }
 
@@ -21,6 +27,7 @@
     justify-content: space-between;
 
     align-items: center;
+    padding: 0px 15px;
 }
 
 .homePageBody{
@@ -52,6 +59,10 @@
 }
 
 .diffLinks a{
+    text-decoration: none;
+}
+
+.diffLinksMobile a{
     text-decoration: none;
 }
 
@@ -106,6 +117,7 @@
     position: absolute;
     top: 50px;
     transform: rotate(-5deg);
+    padding: 0px 15px;
 }
 
 .title h1{
@@ -118,3 +130,69 @@
     //background-color: #964a55;
     //background-color: #5d4256;
 }
+
+@media screen and (min-width:1000px){
+    .avatarOnlyMobile{
+        display: none;
+    }
+    .diffLinksMobile{
+        display: none;
+    }
+}
+
+@media screen and (max-width: 1000px){
+    .title{
+        left: 0px;
+        top: 0px;
+        transform: rotate(0deg);
+        padding: 15px;
+    }
+    .title h1{
+        font-size: 32px;
+    }
+
+    .homePageBody{
+        flex-direction: column;
+        text-align: center;
+    }
+    .homeContent h1{
+        font-size: 24px;
+    }
+    .homeContent h2{
+        font-size: 18px;
+    }
+    .avatarImage{
+        display: none;
+    }
+    .homeContent h2, p{
+        padding: 8px 0px;
+    }
+    .diffLinks{
+        //width: 3%;    
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        display: none;
+    }
+    .buttonHireMe{
+        height: 35px;
+    }
+
+    .avatarImageOnlyMobile{
+        height: 150px;
+        display: block !important;
+        padding-bottom: 10px;
+    }
+
+    .iconBrandsMobile{
+        color: white;
+        font-size: 22px;
+        padding: 0px 8px;
+    }
+
+    .diffLinksMobile{
+        margin-top: 20px;
+        display: block;
+    }
+}
+

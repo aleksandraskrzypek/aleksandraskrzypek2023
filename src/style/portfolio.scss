@@ -7,9 +7,15 @@
     text-shadow: 0 10px 30px rgba(2, 11, 22, 0.5);
 }
 
+@media screen and (min-width: 1270px){
+    .portfolioPageContainer{
+        width: 1200px !important;
+    }
+}
+
 .portfolioPageContainer{
-    width: 1200px;
-    color: white;
+    width: 100%;
+    color: white;   
 }
 
 .portfolioPageHead{
@@ -28,79 +34,78 @@
     justify-content: center;
 }
 
-.portfolioContent{
-    width: 18%;
-    height: 50%;
-    //border: 1px solid white;
-    //display: flex;
-    position: relative;
+
+.projects{
+    display: flex;
+    flex-direction: row;
 }
 
-.imagesPortfolio{
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-    transition: 1s;
-    z-index: 10;
-    position: absolute;
-    top: 50%; 
-    left: 50%; 
-    transform: translate(-50%, -50%); 
-}
-
-.imagesPortfolio:hover{
-    z-index: 0;
-    opacity: 0;
-}
-
-.bg-imagesPortfolio:hover{
-    z-index: 10;
-}
-
-.bg-imagesPortfolio{
-    //opacity: 1;
-    background-color: #964a55;
-    position: absolute;
-    top: 50%; 
-    left: 50%; 
-    transform: translate(-50%, -50%); 
-    width: 100%; 
-    height: 100%;
-    transition: 1s;
+.project{
+    margin: 15px;
     display: flex;
     flex-direction: column;
-    justify-content: space-around;
+    align-items: center;
+    justify-content: center;
+
+    border-radius: 10px;
+    padding: 10px;
+    background-color: rgba(255, 255, 255, 0.226);
+    box-shadow: rgba(50, 50, 105, 0.15) 0px 2px 5px 0px, rgba(0, 0, 0, 0.05) 0px 1px 1px 0px;
 }
 
-.iconsPortfolio{
-    border: 1px solid white;
-    border-radius: 150px;
-    padding: 10px;
-    font-size: 15px;
-    cursor: pointer;
+.seeMore{
+    height: 100%;
+    //margin: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: end;
+    //background-color: rgba(255, 255, 255, 0.226);
+    //box-shadow: rgba(50, 50, 105, 0.15) 0px 2px 5px 0px, rgba(0, 0, 0, 0.05) 0px 1px 1px 0px;
+}
+
+.titlePortfolio{
+    text-shadow: .1em .1em 0 hsl(200 50% 30%);
+}
+
+.iconPortfolio{
+    color: white;
+    font-size: 28px;
+    padding: 0px 12px;
     transition: 1s;
 }
 
-.iconsPortfolio:hover{
-    transform: scale(1.1);
+.iconPortfolio:hover{
+    scale: (1.2);
 }
 
-.bg-imagesPortfolio h1{
-    padding: 10px;
-    font-size: 24px;
-    text-align: center;
-}
-
-.bg-imagesPortfolio p{
-    padding: 10px;
-    font-size: 12px;
-    text-align: center;
-    height: 150px;
-    overflow: hidden;
-}
-
-.containerIconsPortfolio{
+.titleWithIcon{
     display: flex;
-    justify-content: space-around;
+    flex-direction: column;
+    align-items: center;
+}
+
+.seeMoreContainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.imgPortf{
+    height: 300px;
+}
+
+@media screen and (max-width:1000px){
+    .titlePortfolio{
+        font-size: 24px;
+    }
+    .projects{
+        flex-direction: column;
+    }
+    .imgPortf{
+        height: 140px;
+    }
+
+
 }

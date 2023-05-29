@@ -25,7 +25,7 @@ function Contact() {
               <p>aleksandraskrzypek97@gmail.com</p>
             </div>
 
-            <h1>Also you can find me here!</h1>
+            <h1 className='iconsFindMe'>Also you can find me here!</h1>
             <FontAwesomeIcon icon={faGithub} className='iconContact findmeIcon'/>
             <FontAwesomeIcon icon={faFacebook} className='iconContact findmeIcon'/>
             <FontAwesomeIcon icon={faLinkedin} className='iconContact findmeIcon'/>
