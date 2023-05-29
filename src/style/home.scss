@@ -18,6 +18,9 @@
 .homePageContainer{
     width: 100%;
     color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .homePageHead{
@@ -193,6 +196,9 @@
     .diffLinksMobile{
         margin-top: 20px;
         display: block;
+    }
+    .homePageHead{
+        height: 90%;
     }
 }
 
