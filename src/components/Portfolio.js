@@ -23,10 +23,10 @@ function Portfolio() {
         </div>
         <div className='portfolioPageHead'>
           <div className='allContent'>
-            <div className='work'>
+            <div className='work' data-aos="fade-left"  data-aos-duration="2000">
               <h1 className='titlePortfolio'>My recantly Works</h1>
             </div>
-            <div className='projects'>
+            <div className='projects' data-aos="fade-left"  data-aos-duration="2000">
               <div className='project'>
                 <img alt="" src={img1} className='imgPortf'/>
                 <div className='titleWithIcon'>

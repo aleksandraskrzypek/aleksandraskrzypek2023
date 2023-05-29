@@ -22,7 +22,7 @@ function About() {
   
 
 
-          <div className='listSkills'>
+          <div className='listSkills' data-aos="flip-left" data-aos-duration="2000">
               <ul>
                 <li>well-organised person</li>
                 <li>problem solver</li>
@@ -53,7 +53,7 @@ function About() {
               </div>
             </div>
             <h1 className='skills'>Also know/work with:</h1>
-            <div className='listSkills'>
+            <div className='listSkills' data-aos="flip-left" data-aos-duration="2000">
               <ul>
                 <li>bootstrap</li>
                 <li>tailwind</li>
